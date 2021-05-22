@@ -36,7 +36,7 @@ public class MatrixMulti
 			{
 				for(int l=0; l<m; l++)
 				{
-					c[i][j] = c[i][j] + (a[i][k] * b[k][j]);
+					c[i][j] = c[i][j] + (a[i][l] * b[l][j]);
 				}
 			}
 		}
